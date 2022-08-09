@@ -1,0 +1,134 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+.all {
+  width: 350px;
+  background-color: rgb(186, 253, 253);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(186, 253, 253);
+}
+
+#heading {
+  margin-left: 20px;
+  font-weight: 300;
+}
+
+.top p i {
+  color: orange;
+}
+
+
+.bottom {
+
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+
+}
+
+.bottom-header {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.bottom-header p i {
+  color: orange;
+}
+
+.icon {
+  z-index: 999;
+  margin-bottom: 30px;
+  margin-top: 18px;
+  margin-right: -130px;
+}
+
+.bottom-header input {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  padding-left: 30px;
+  border: 0px;
+  width: 120px;
+}
+
+body:not(.keyboardUser) *:focus {
+  outline: none;
+}
+
+.profiles {
+  height: 140px;
+  max-width: min-content;
+  overflow: scroll;
+  margin-top: -20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-face {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+}
+
+.profile-face img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 100vh;
+}
+
+.chat-profile {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 80px;
+  margin: 15px;
+}
+
+.chat-profile article {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.chat-profile article span {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chat-profile article span h6 {
+  font-weight: 100;
+  color: rgb(141, 140, 140);
+}
+
+.chat-profile article p {
+  margin-top: -10px;
+  font-size: smaller;
+  color: rgb(36, 36, 36);
+}
+
+.chat-profile img {
+  height: 70px;
+  width: 70px;
+  border-radius: 100px;
+}
