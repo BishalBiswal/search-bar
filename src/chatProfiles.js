@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Chatprofiles = (props) => {
-    const { first_name, last_name, user_name, img } = props;
+    const { user_name, img } = props;
     return (
         <div className="chat-profile">
             <img src={img} alt="" />

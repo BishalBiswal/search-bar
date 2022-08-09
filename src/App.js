@@ -28,12 +28,13 @@ function App() {
           </div>
           <div className="chat">
             {jsonData.filter((val) => {
-              if (searchTerm == "") {
+              if (searchTerm === "") {
                 return val
               }
               else if (val.user_name.toLowerCase().includes(searchTerm.toLowerCase())) {
                 return val
               }
+              return 0
             }).map((val, id) => {
               return (
                 <Chatprofiles key={id} {...val} />
